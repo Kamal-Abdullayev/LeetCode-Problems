@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
 
 public class PalindromeNumber {
     public static void main(String[] args) {
@@ -11,7 +9,11 @@ public class PalindromeNumber {
         int x6 = 2111111112;
 
         System.out.println(isPalindrome(x));
-        System.out.println(isPalindrome(x2));.
+        System.out.println(isPalindrome(x2));
+        System.out.println(isPalindrome(x3));
+        System.out.println(isPalindrome(x4));
+        System.out.println(isPalindrome(x5));
+        System.out.println(isPalindrome(x6));
     }
 
     public static boolean isPalindrome(int x) {
